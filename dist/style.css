@@ -1,0 +1,59 @@
+.carta1 + .carta1 {
+  margin-left: -7px;
+}
+
+.z1 {
+  z-index: 1;
+}
+
+.z2 {
+  z-index: 2;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.caixona {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80%;
+  width: 50vw;
+  background-color: pink;
+  border: dotted 10px red;
+}
+
+.carta1 {
+  display: flex;
+  position: relative;
+  height: 100px;
+  width: 80px;
+  background-color: white;
+  border: solid 3px black;
+  justify-content: center;
+  align-items: center;
+}
+
+.letrinha.esq {
+  position: absolute;
+  left: 02px;
+  top: 02px;
+}
+
+.letrinha.dir {
+  position: absolute;
+  bottom: 02px;
+  right: 02px;
+}
+
+.letrona {
+  font-size: 40px;
+}
+
+.red {
+  color: red;
+}
